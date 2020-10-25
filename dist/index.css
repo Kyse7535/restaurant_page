@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Active {
+    color: red;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 15px;
+}
