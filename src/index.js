@@ -1,6 +1,8 @@
-import { accueil, menu } from './chargement';
+import { accueil } from './accueil';
+import { menu } from './menu';
+import { a_propos } from './a_propos';
 
-//accueil.myreset();
+accueil.myreset();
 accueil.addHeader();
 accueil.addMain();
 let li_accueil = document.getElementById('accueil');
@@ -20,6 +22,7 @@ li_menu.addEventListener('click', () => {
 
 let li_a_propos = document.getElementById('propos');
 li_a_propos.addEventListener('click', () => {
-    alert('a propos');
     accueil.active_class(li_a_propos);
+    menu.myreset();
+    a_propos.addMain();
 });
