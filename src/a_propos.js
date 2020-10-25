@@ -21,7 +21,7 @@ const a_propos = (() => {
         main.append(div1);
 
         let div2 = document.createElement('div');
-        div2.style.cssText = "width: 70%; margin: 0 auto; padding-top: 3%;";
+        div2.style.cssText = "width: 60%; margin: 0 auto; padding-top: 3%;";
         let div2_paragraph1 = document.createElement('div');
         div2_paragraph1.style.cssText = "width:40%; margin-bottom: 2%";
         div2_paragraph1.innerHTML = "<h1>NOTRE RESTAURANT</h1> <p>Ceci est un paragraphe. C'est l'endroit idéal pour écrire une description sur votre entreprise ou vos services. Vous pouvez ajouter et modifier le texte. Survolez-moi avec votre souris d'ordinateur et cliquez une fois pour que le menu s’affiche. Double-cliquez pour éditer directement le texte. Vous pouvez aussi me déplacer n'importe où  sur la page par la méthode du « Glisser et Déposer ». </p>"

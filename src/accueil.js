@@ -38,7 +38,7 @@ const accueil = (() => {
         main.setAttribute("id", "myMain")
         main.style.cssText = "height: 93%; padding: 0; margin: 0; box-sizing: border-box;";
         let div = document.createElement('div');
-        div.style.cssText = "height: 100%;background: url('./cuisine.jpg') center no-repeat;background-size: cover;";
+        div.style.cssText = "height: 100%;background: url('./pasta.jpg') center no-repeat;background-size: cover;";
 
         let div_opacity = document.createElement('div');
         div_opacity.style.cssText = "height: 100%; background-color: rgba(250, 250, 250, 0.1); width: 100%;display: flex;justify-content: center;align-items: center;";
